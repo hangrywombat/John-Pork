@@ -11,7 +11,7 @@
       background-color: #fff7f4;
       color: #4a3f35;
     }
-    header 
+    header {
       background-color: #f8c8dc;
       padding: 20px;
       text-align: center;
@@ -33,6 +33,14 @@
     .gallery img {
       width: 100%;
       border-radius: 10px;
+    }
+    .featured-image {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .featured-image img {
+      max-width: 300px;
+      border-radius: 15px;
     }
     footer {
       text-align: center;
@@ -60,7 +68,12 @@
 
   <section id="about" class="content">
     <h2>About Me</h2>
+    <div class="featured-image">
+      <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/images/john_pork.png" alt="John Pork">
+      <p>This is John Pork — always stylish, always calling.</p>
+    </div>
     <p>Here's a little about me and a gallery of things I love or have worked on.</p>
+    <p>Caleb D. and Aidan N. are interesting fellows.</p>
     <div class="gallery">
       <img src="https://via.placeholder.com/200" alt="Gallery Image 1">
       <img src="https://via.placeholder.com/200" alt="Gallery Image 2">
